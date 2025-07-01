@@ -1,0 +1,35 @@
+  body {
+    margin: 0;
+    height: 100vh;
+    background: #1e1e1e;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', sans-serif;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  #banner {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #00ffd5;
+  }
+
+  #clock {
+    font-size: 4rem;
+    font-weight: bold;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px #00ffd5, 0 0 20px #00ffd5;
+    }
+    to {
+      text-shadow: 0 0 20px #00ffd5, 0 0 30px #00ffd5;
+    }
+  }
